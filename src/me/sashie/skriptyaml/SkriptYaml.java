@@ -138,7 +138,7 @@ public class SkriptYaml extends JavaPlugin {
 			error("Skript not found, plugin disabled.");
 		}
 	}
-/*
+
 	public String registeredTagsToString() {
 		StringBuilder sb = new StringBuilder();
 		for (Iterator<Entry<String, Map<String, Integer>>> pluginName = registeredTags().entrySet()
@@ -159,7 +159,7 @@ public class SkriptYaml extends JavaPlugin {
 
 		return sb.toString();
 	}
-*/
+
 	private Map<String, Map<String, Integer>> registeredTags() {
 		Map<String, Map<String, Integer>> map = new HashMap<String, Map<String, Integer>>();
 		Map<String, Integer> entry;
